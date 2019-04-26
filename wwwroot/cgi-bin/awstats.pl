@@ -9198,7 +9198,7 @@ sub DefinePerlParsingFormat {
 				$PerlParsingFormat .=
 
 #"\\\"([^$LogSeparatorWithoutStar]+) ([^$LogSeparatorWithoutStar]+) [^\\\"]+\\\"";
-"\\\"([^$LogSeparatorWithoutStar]+) ([^$LogSeparatorWithoutStar]+)(?: [^\\\"]+|)\\\"";
+"\\\"([^$LogSeparatorWithoutStar]+) ([^$LogSeparatorWithoutStar]+)(?: [^\\\"]+)\\\"";
 			}
 			elsif ( $f =~ /%methodurlprot$/ ) {
 				$pos_method = $i;
